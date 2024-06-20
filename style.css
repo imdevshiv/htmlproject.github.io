@@ -1,0 +1,89 @@
+body{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFDB00;
+}
+.h{
+    display: flex;
+    /* flex-direction: column; */
+    
+}
+
+.container{
+    height: 400px;
+    width: 1000px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content:space-around; */
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+    gap: 10px;
+    padding-left: 30px;
+    /* padding-right: 10px; */
+}
+
+.box{
+    display: flex;
+    width: 210px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: aliceblue;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 24px;
+}
+
+.one{
+    background-color: #26355D;
+    /* text-align: center;
+    justify-items: center; */
+    /* flex: 1; */
+    /* order: 1; */
+}
+
+.two{
+    background-color: #FF8F00;
+    /* order: 2; */
+    /* flex: 1; */
+}
+
+.three{
+    background-color: #AF47D2;
+    /* flex: 1
+    ; */
+    /* order: 3; */
+}
+
+.four{
+    background-color: #9400FF;
+    /* flex: 1; */
+    /* order: 4; */
+}
+.five{
+    background-color: #FF0060;
+    /* flex: 1; */
+    /* order: 5; */
+}
+.six{
+    background-color: #FF78F0;
+    /* flex: 1; */
+    /* order: 6; */
+}
+
+.container:hover{
+    background-color: #FFDB00;
+    color: #26355D;
+}
+
+.box:hover{
+    background-color:aquamarine;
+    color: #26355D;
+}
